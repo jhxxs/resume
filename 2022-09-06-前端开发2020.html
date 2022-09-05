@@ -1,0 +1,1514 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+  </head>
+  <body>
+    <style>
+      html,
+      body,
+      div,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-size: 14px;
+        font-family: "microsoft yahei";
+        background-color: #ffffff;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: fixed;
+      }
+      th,
+      td {
+        font-size: 14px;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        border: 0 none;
+      }
+      .blue {
+        text-decoration: none;
+        color: #3c3d5d;
+      }
+      .chead {
+        width: 1002px;
+      }
+      .chead .logo {
+        width: 698px;
+        height: 90px;
+      }
+      .chead .txt {
+        width: 152px;
+        height: 90px;
+      }
+      .column {
+        width: 1002px;
+        line-height: 28px;
+        border: 1px solid #dedede;
+      }
+      .column .hbox {
+        width: 185px;
+        height: 154px;
+      }
+      .column .head {
+        display: block;
+        background-color: #fafafa;
+      }
+      .column .box {
+        width: 100%;
+        background-color: #ffffff;
+        border-top: 2px solid #f2f3f5;
+      }
+      .column .box1 {
+        width: 100%;
+        word-wrap: break-word;
+        color: #ffffff;
+        background-color: #3f4160;
+      }
+      .column .box2 {
+        width: 100%;
+        background-color: #f8f9fa;
+      }
+      .column .tba {
+        width: 940px;
+        padding: 0 30px 15px;
+      }
+      .column .tbb {
+        width: 940px;
+        padding: 0 30px;
+      }
+      .column .tb1 {
+        width: 900px;
+        line-height: 28px;
+        color: #333333;
+        word-break: break-all;
+        padding: 0 20px;
+      }
+      .column .tb2 {
+        width: 430px;
+        padding: 0 20px;
+      }
+      .column .tb3 {
+        width: 900px;
+        padding: 15px 20px 15px 0;
+      }
+      .column .gray,
+      .column .gray2 {
+        color: #999999;
+        word-break: break-all;
+      }
+      .column .gray2 {
+        color: #666666;
+      }
+      .column .plate1,
+      .column .plate2 {
+        width: 430px;
+        height: 54px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #818ba3;
+      }
+      .column .plate1 {
+        width: 900px;
+        padding: 0 50px;
+      }
+      .column .plate1 .f16 {
+        font-size: 14px;
+        font-weight: normal;
+        color: #333333;
+      }
+      .column .plate1 .f12 {
+        font-size: 12px;
+        font-weight: normal;
+        color: #999999;
+      }
+      .column .keys,
+      .column .keys2 {
+        width: 85px;
+        line-height: 28px;
+        color: #666666;
+      }
+      .column .keys2 {
+        width: 110px;
+      }
+      .column .txt1,
+      .column .txt2,
+      .column .txt3 {
+        width: 815px;
+        line-height: 28px;
+        color: #333333;
+        word-break: break-all;
+      }
+      .column .txt2 {
+        width: 345px;
+      }
+      .column .txt3 {
+        width: auto;
+        max-width: 815px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .column .txt4 {
+        width: 305px;
+        color: #ffffff;
+        word-break: break-all;
+      }
+      .column .infr {
+        width: 767px;
+        color: #ffffff;
+        table-layout: auto;
+      }
+      .column .vam,
+      .column .grcha {
+        vertical-align: middle;
+        margin-left: 5px;
+      }
+      .column .box1 .vam {
+        margin-right: 5px;
+        margin-left: 0;
+      }
+      .column .name {
+        font-size: 24px;
+        padding-bottom: 18px;
+      }
+      .column .icard {
+        color: #a1a3ae;
+        padding-bottom: 18px;
+      }
+      .column .con {
+        border-top: 1px dotted #ddd;
+      }
+      .column .pr20 {
+        width: 225px;
+        padding-right: 20px;
+      }
+      .column .time {
+        width: 120px;
+        line-height: 28px;
+        color: #666666;
+        padding-left: 20px;
+      }
+      .column .rtbox {
+        width: 765px;
+        line-height: 28px;
+        color: #333333;
+        padding: 0 20px 0 15px;
+        word-break: break-all;
+      }
+      .column .hai,
+      .column .guan {
+        line-height: 18px;
+        font-size: 12px;
+        color: #ffffff;
+        vertical-align: text-top;
+        margin-left: 5px;
+        padding: 1px 3px;
+        background-color: #3cbe7f;
+        border-radius: 2px;
+      }
+      .column .guan {
+        background-color: #ff9f20;
+      }
+      .column .tag {
+        display: inline-block;
+        word-break: break-all;
+      }
+      .column .all {
+        color: #666;
+        padding: 10px 20px;
+        background-color: #fafafa;
+      }
+      .column .tit {
+        width: 900px;
+        height: 40px;
+        color: #666666;
+        padding: 0 20px;
+        background-color: #f5f5f5;
+      }
+      .column .p15 {
+        padding: 15px 0;
+      }
+      .column .p5 {
+        display: inline-block;
+        color: #666666;
+        padding: 0 5px;
+      }
+      .column .cell .skill {
+        width: 165px;
+        text-align: right;
+        padding-right: 15px;
+      }
+      .column .cell .skbg,
+      .column .cell .skco {
+        display: inline-block;
+        width: 245px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #ffffff;
+        vertical-align: top;
+        margin-top: 6px;
+        background-color: #dddddd;
+        border-radius: 20px;
+      }
+      .column .cell .skco {
+        width: 235px;
+        font-style: normal;
+        margin-top: 0;
+        padding-left: 10px;
+        background-color: #ff9f20;
+        z-index: 3;
+      }
+      .column .sl .skco {
+        width: 173px;
+      }
+      .column .lh .skco {
+        width: 112px;
+      }
+      .column .yb .skco {
+        width: 51px;
+      }
+      .column .fbox strong {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .column .cha {
+        font-size: 12px;
+        font-weight: normal;
+        color: #00457d;
+        margin-left: 5px;
+      }
+      .column .cha1 {
+        font-size: 14px;
+      }
+      .column .cha:hover {
+        color: #ff6000;
+      }
+      .column .email {
+        width: 330px;
+      }
+      .column .bbf {
+        border-bottom: 1px dotted #ddd;
+      }
+
+      .eng td,
+      .eng .txt3,
+      .eng .fbox strong {
+        font-size: 13px;
+        font-family: "Arial";
+      }
+      .eng .txt1,
+      .eng .rtbox,
+      .eng .phd {
+        width: 775px;
+        font-size: 13px;
+        font-family: "Arial";
+        line-height: 28px;
+      }
+      .eng .txt2 {
+        width: 305px;
+      }
+      .eng .txt4 {
+        width: 245px;
+      }
+      .eng .cell .txt3 {
+        width: 120px;
+      }
+      .eng .time,
+      .eng .keys {
+        width: 110px;
+        font-size: 13px;
+        text-align: right;
+      }
+      .eng .cell .skill {
+        width: 130px;
+      }
+      .eng .phd {
+        padding-left: 145px;
+      }
+      .eng .keys {
+        padding-right: 15px;
+      }
+      .eng .pr20 {
+        width: 205px;
+      }
+      .eng .pr20 .keys {
+        width: 100px;
+      }
+      .eng .email {
+        width: 270px;
+      }
+      /* adjust */
+      .column .tba {
+        width: 900px;
+        padding: 0 50px 15px;
+      }
+      .column .tb1 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .column .tb2 {
+        padding-left: 0;
+        width: 450px;
+      }
+      .column .pd_20 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .h_16 {
+        height: 16px;
+      }
+      .schHead img {
+        display: block;
+      }
+      .column .schGood {
+        line-height: 18px;
+        font-size: 12px;
+        color: #f87203;
+        vertical-align: text-top;
+        margin-left: 4px;
+        padding: 1px 3px;
+        background-color: #ffede5;
+        border-radius: 2px;
+      }
+      .column .p_12 {
+        padding-left: 12px;
+      }
+      .column .time {
+        text-align: right;
+      }
+      .column .schTime {
+        width: 115px;
+      }
+    </style>
+    <table
+      cellpadding="0"
+      cellspacing="0"
+      align="center"
+      bgcolor="#fff"
+      class="column"
+    >
+      <tbody>
+        <tr>
+          <td valign="top">
+            <!--������Ϣ-->
+            <table cellspacing="0" cellpadding="0" border="0" class="box1">
+              <tbody>
+                <tr>
+                  <td class="hbox" align="middle">
+                    <img
+                      src="https://img01.51jobcdn.com/im/2021/avatar/male/avatar_toc_male03.png"
+                      width="85"
+                      height="104"
+                      class="head"
+                      alt="ͷ��"
+                    />
+                  </td>
+                  <td>
+                    <table
+                      cellspacing="0"
+                      cellpadding="0"
+                      border="0"
+                      class="infr"
+                    >
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="name">��͢��</td>
+                        </tr>
+                        <tr>
+                          <td valign="top" colspan="3">
+                            <p>
+                              <img
+                                class="vam"
+                                src="https://img01.51jobcdn.com/im/2016/resume/y4.png"
+                                width="20"
+                                height="20"
+                              />
+                              �� <span class="p5">|</span> 28 �� (1993/11)
+                              <span class="p5">|</span> 6�깤������
+                              <span class="p5">|</span> �־�ס����-������
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <img
+                              class="vam"
+                              src="https://img01.51jobcdn.com/im/2016/resume/y2.png"
+                              width="20"
+                              height="20"
+                            />176****7400
+                          </td>
+                          <td valign="top">
+                            <table
+                              cellspacing="0"
+                              cellpadding="0"
+                              border="0"
+                              class="email"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td valign="top" width="25">
+                                    <img
+                                      class="vam"
+                                      src="https://img01.51jobcdn.com/im/2016/resume/y3.png"
+                                      width="20"
+                                      height="20"
+                                    />
+                                  </td>
+                                  <td valign="top" class="txt4">
+                                    114208****@qq.com
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--��������-->
+            <table cellspacing="0" cellpadding="0" border="0" class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">��������</td>
+                </tr>
+                <tr>
+                  <td class="tba">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="tb1">
+                            ���������רҵ�������ǰ�˿������顣����ʹ�� Vue, React
+                            ��ǰ�˿�ܣ����ŷḻ��Web�������飬������С�����
+                            web����Ŀ�Ķ�������������ʹ�������к� git������ GitHub
+                            ���Լ���Ӣ��������������е����⣬���¼���ʼ�ձ����ż�������飬����ϲ����ͬ���ǻ����������ֵ���֪ʶ����һ���Ĵ����񱣬ӵ���淶��
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--��ְ����-->
+            <table cellspacing="0" cellpadding="0" border="0" class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">��ְ����</td>
+                </tr>
+                <tr>
+                  <td class="tba">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="p15 bbf">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            ����ְ�ܣ�
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            <span class="tag">Webǰ�˿���</span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            �������У�
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            <span class="tag">����</span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            ������н��
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            1.5��-2��/��
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            ������ҵ��
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            <span class="tag">
+                                              ������/��������
+                                            </span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            �������ͣ�
+                                          </td>
+                                          <td valign="top" class="txt2">ȫְ</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p15 bbf">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            ����ְ�ܣ�
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            <span class="tag"
+                                              >HTML5��������ʦ</span
+                                            >
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            �������У�
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            <span class="tag">����</span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            ������н��
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            1.5��-2��/��
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            ������ҵ��
+                                          </td>
+                                          <td valign="top" class="txt2">
+                                            <span class="tag">
+                                              ������/��������
+                                            </span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb2" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">
+                                            �������ͣ�
+                                          </td>
+                                          <td valign="top" class="txt2">ȫְ</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <td class="tba">
+                  <table cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td class="tb2" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td valign="top" class="keys">��ְ״̬��</td>
+                                <td valign="top" class="txt2">Ŀǰ�����ҹ���</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td class="tb2" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td valign="top" class="keys">����ʱ�䣺</td>
+                                <td valign="top" class="txt2">1����</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tbody>
+            </table>
+            <!--��������-->
+            <table cellspacing="0" cellpadding="0" border="0" class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">��������</td>
+                </tr>
+                <tr>
+                  <td class="tbb">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td class="p15 pd_20">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>ֵ�ÿ��Ƽ������޹�˾</strong
+                                  ><span class="gray">&nbsp;��2��4���£�</span>
+                                </td>
+                                <td valign="top" class="time">2020/5-����</td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="tb1" colspan="2">
+                                  <span>ǰ�˿�������ʦ</span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="h_16" colspan="2"></td>
+                              </tr>
+                              <tr>
+                                <td class="phd tb1 gray2" colspan="2">
+                                  ���������<span class="p5">|</span
+                                  >50-150��<span class="p5">|</span>��Ӫ��˾
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ����������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ǰ��С�鸺���ˣ���Ҫ������˾SaaS��PaaSƽ̨��ǰ�˿�������˾����С���򿪷����Լ���˾�ӵĵ��ӵ�ǰ�˿�����<br />���������и�����ѡ�͡���Ŀ�����������淶��ǰ�˹���ģ���ʵ�֡�
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15 con pd_20">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>�鱦ͨ�����ڣ��������Ƽ����޹�˾</strong
+                                  ><span class="gray">&nbsp;��3��5���£�</span>
+                                </td>
+                                <td valign="top" class="time">
+                                  2016/11-2020/4
+                                </td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="tb1" colspan="2">
+                                  <span>Webǰ�˿���</span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="h_16" colspan="2"></td>
+                              </tr>
+                              <tr>
+                                <td class="phd tb1 gray2" colspan="2">
+                                  �ݳ�Ʒ/�ղ�Ʒ/����Ʒ/�鱦<span class="p5">|</span
+                                  >50-150��<span class="p5">|</span>��Ӫ��˾
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ����������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          �鱦ͨ����ΪB2B�鱦����ƽ̨��<br />ǰ����ϲ�������İ棬����������̨���棬ǰ�˼���ջΪjQuery��<br />�к��ڸ����ֵܹ�˾���ƶ�����Ŀ������΢��С�����΢�Ź��ں��ڲ��µ�ϵͳ���Լ����ڹ������ƶ��˵�ά���͸İ档
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- ��Ŀ���� -->
+            <table cellspacing="0" cellpadding="0" border="0" class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">��Ŀ����</td>
+                </tr>
+                <tr>
+                  <td class="tba">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>QSeeWeb</strong>
+                                </td>
+                                <td valign="top" class="time">2022/7-����</td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ֵ�ÿ��Ƽ������޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ��Ƶ��һǰ�˿������Ҹ�������Ƶ��ص�web�˿���������
+                                          Jessibuca
+                                          ��������װ���������������ʵ����ƵԤ���ͻطŹ��ܣ������1x1��2x2��3x3����Ч����<br />ʹ��ԭ��
+                                          Canvas
+                                          ����ʵ����Ƶ�طŹ���ʱ���ᣬʱ�����ж���ʱ������֧�ֶ���طźͲ���ʱ��ͬ��Ч����<br />��Ŀ����ջʹ��
+                                          Vue 2.7 + TypeScript + Pinia��
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>ֵ�ÿ�С����Ͱ�����ˮ��С����</strong>
+                                </td>
+                                <td valign="top" class="time">
+                                  2021/11-2022/7
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ֵ�ÿ��Ƽ������޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          �ۺ�������Ӧ�ù���С���򣬽�������Ӳ����Ϊ�û��ṩ��ݡ��ǻ۵ľӼ��������顣�����ֵ�ÿ�APP��С�������΢��ƽ̨��ʹ�÷��㲻��Ҫ�������ذ�װ������APPӦ�ó�������չ��<br />���������ˡ�<br />�Ҹ����ö�����ѡ���ƶ������������Ŀ������������Ŀ���豸�������������������ģ���ҳ��Ŀ�����<br />����Ŀ�ɹ���<br />ĿǰС�����һ���Ѿ���΢����ʽ���ߣ��߱������ļ�ͥ�����䡢�豸�����͸�����Ϣ�༭���ܣ������豸������豸��彻������֧�֡������豸�����������ƺͲ����С���΢������ֵ�ÿ�������С����������飩<br />С�������Ŀǰ�����еĿ���ʽ��˿��ܽ������
+                                          Taro ���Ŀ����ѡ�� React + TS +
+                                          Redux/Jotai ��Ϊǰ�˿�������ջ��<br /><br />������ˮ��С����ʹ���˺�ֵ�ÿ�С����һ���ļ���ջ��ʵ������������ˮ����ͨ��
+                                          BLE
+                                          �����豸�ʹ������ݹ��ܣ�������ˮ�򿨺���ˮͳ��Ч����
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>ֵ�ÿ���ƽ̨</strong>
+                                </td>
+                                <td valign="top" class="time">
+                                  2021/4-2021/11
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ֵ�ÿ��Ƽ������޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ϵͳ����������ƽ̨��������ģ�͹�����Ӳ��������������ơ�ƽ̨�����豸����������ͳ�Ʒ����ȹ��ߵ�
+                                          IOT ����ƽ̨��<br />���������ˡ�<br />�������и���ǰ�˿������ռ����С��ʱǰ����Ŀ�Ѿ����߹�ģ���ں�����С���Ա���۴��һ�º󽫹���������
+                                          vue-cli Ǩ�Ƶ� vite ������ TypeScript ��
+                                          compoisition-api
+                                          ֧�֣���д����ϸ��Ǩ�ƸĶ���־����������ǰ��Ϥ
+                                          Vue3
+                                          �����Բ�Ͷ��ʵ�ʿ����С��ƶ�����淶������
+                                          git-flow ���������Ż���Ŀ�������顣<br />����
+                                          element-ui ��װ�Զ����������д docker
+                                          ����ű���<br />����������ĿUI�İ������ģ���ҳ�濪������½������һЩ���˵�ǰ�˼�������tailwind-css����������Ч�ʡ�<br />����Ŀ�ɹ���<br />Ŀǰ��ƽ̨���ڶ�����²�����Ŀ�������ᵽ�Ĺ��ܾ���֧�֣��Զ��幹��
+                                          OEM app
+                                          ���ܻ��ڲ����У��������������⿪���̼����ú���¼���ܡ�
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>��Ϊ hilink</strong>
+                                </td>
+                                <td valign="top" class="time">2020/5-2021/3</td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ֵ�ÿ��Ƽ������޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          Ϊ����Ʒ�ƺ� OEM �����ṩ���뻪Ϊ hilink
+                                          ƽ̨����֧�֣�hilink
+                                          ����������Ӳ����̬�Ŀ���ƽ̨�������������豸����
+                                          hilink ���û��������ֻ��ǻ�������ʵ�� app
+                                          �����豸��<br />���������ˡ�<br />�������������Ʒ��
+                                          h5
+                                          ������������Ŀ�ļ���ѡ�ͺ���Ŀ�����������ɵ�����Ʒ��
+                                          h5
+                                          �������豸�������һ���������Ѿ������Ʒ��ǰ��ά����<br />����Ŀ�ɹ���<br />Ŀǰ����Ķ���豸�Ѿ����ã���Ʒ�����綯��ˢ�����뵶��������ͽ�Ĥǹ���豸��<br />ʹ�õļ���ջΪ
+                                          Vue2 + composition-api +
+                                          TypeScript��ui ��Ϊ
+                                          vant��Ŀǰ�Ѿ��γ�һ��������Ƶ�ui�Ϳ����淶��������һ�����������һ���Ʒ��
+                                          h5 ҳ�濪�����豸������<br />������Ŀ������β�׶Σ��ҳ�ս������֧�����ϲ����Ƴ�������룬������
+                                          changelog ���ɹ��ܡ�
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>������С����͹�������ϵͳ</strong>
+                                </td>
+                                <td valign="top" class="time">2018/7-����</td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          �鱦ͨ�����ڣ��������Ƽ����޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ��������ϵͳ�ǹ�˾����ֵܹ�˾�ɵ��鱦�����Ĺ��ں��ڲ������µ�ϵͳ���õ���΢�Źٷ��ṩ���û���Ȩ��¼��ʽ�����漰΢�Ź��ں�֧��������Ŀ����vue�������ģʽ��������ĿΪһ����ҳ��Ӧ�ã��û�����õ��ܺõ�������<br /><br />��������һ�����������鱦��Ʒ��С������Ϊ����ԭ������С����ľ��飬���Ա�������������mpvue��������Ϥvue������£��ӿ쿪��Ч�ʡ�
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>ʢ����ѡ</strong>
+                                </td>
+                                <td valign="top" class="time">2017/11-����</td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          �鱦ͨ�����ڣ��������Ƽ����޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ʢ����ѡΪ�鱦ͨΪʢ�ι�Ӧ����˾�����������������µ��Ļƽ��鱦����С����Ϊչ�����������������µ��������ģʽ�����û�������С�������Ȩ��¼�󣬿���ֱ��������ѡչ���Ͳֿ�ǼǵĻƽ��鱦��Ʒ��С���������ҳ�����࣬���������ﳵ����������ַ����������������Ʒ���������ģ��ղص�ģ�顣<br />�û��������ض�ҳ���Զ���������Ҫ���ƵĻƽ��鱦��Ʒ���µ���<br />С�������Ҫ����΢�Źٷ��ṩ��ԭ��д����
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="phd tb1">
+                                  <strong>�鱦ͨ����2.0�İ�</strong>
+                                </td>
+                                <td valign="top" class="time">
+                                  2016/11-2017/11
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ������˾��
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          �鱦ͨ�����ڣ��������Ƽ����޹�˾
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          ��Ŀ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          ����Ŀ��Ҫ������鱦ͨ����b2b�����鱦������վ�ĸİ�͹��������Ͻ�һ���Ŀ���������վ������ҳ�������˵��ͷ���ҳ���û��������ġ����ﳵ������������������ַ������ģ�顣
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--��������-->
+            <table class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">��������</td>
+                </tr>
+                <tr>
+                  <td class="tba">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td rowspan="2" class="schHead">
+                                  <img
+                                    src="https://img01.51jobcdn.com/im/school/%25E6%25B9%2596%25E5%258C%2597%25E7%25AC%25AC%25E4%25BA%258C%25E5%25B8%2588%25E8%258C%2583%25E5%25AD%25A6%25E9%2599%25A2.jpg"
+                                    alt=""
+                                    width="52"
+                                    height="52"
+                                  />
+                                </td>
+                                <td valign="top" class="rtbox p_12">
+                                  <strong>�����ڶ�ʦ��ѧԺ</strong>
+                                </td>
+                                <td valign="top" class="time schTime">
+                                  2012/9-2016/6
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="rtbox p_12" colspan="2">
+                                  ���� <span class="p5">|</span> �������ѧ�뼼��
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tb1" colspan="2">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" class="keys">
+                                          רҵ������
+                                        </td>
+                                        <td valign="top" class="txt1">
+                                          �����רҵ��ѧϰ�Ŀγ��ж��ֱ�����ԣ����ֵ�·������ԭ�������ݽṹ���㷨��linux��ء�
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--��У���-->
+            <!--�����س�-->
+            <table cellspacing="0" cellpadding="0" border="0" class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">
+                    �����س�
+                    <span class="f12"
+                      >������IT���ܡ�����������֤�顢�ɼ�����ѵ������</span
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tbb">
+                    <!--����/����-->
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="tit">����/����</td>
+                        </tr>
+                        <tr>
+                          <td class="p15">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="tb2 cell sl" valign="top">
+                                    <table
+                                      cellspacing="0"
+                                      cellpadding="0"
+                                      border="0"
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td class="skill">
+                                            <strong class="txt3">Ӣ��</strong>
+                                          </td>
+                                          <td valign="top">
+                                            <span class="skbg">
+                                              <span class="skco">����</span>
+                                            </span>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--֤��-->
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="tit">֤��</td>
+                        </tr>
+                        <tr>
+                          <td class="p15 pd_20">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" class="tb1">
+                                    <strong class="txt3"> ��ѧӢ������ </strong>
+                                  </td>
+                                  <td valign="top" class="time">2015/4</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--��ѵ����-->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--������Ϣ-->
+
+            <!--������Ʒ-->
+            <table class="box">
+              <tbody>
+                <tr>
+                  <td class="plate1">������Ʒ</td>
+                </tr>
+                <tr>
+                  <td class="tba">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td class="p15">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td class="p15">
+                                  <table
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    border="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td class="tb1">
+                                          <table
+                                            cellspacing="0"
+                                            cellpadding="0"
+                                            border="0"
+                                          >
+                                            <tbody>
+                                              <tr>
+                                                <td valign="top" class="keys">
+                                                  ��Ʒ���ӣ�
+                                                </td>
+                                                <td valign="top" class="txt1">
+                                                  https://github.com/jhxxs
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td valign="top" class="keys">
+                                                  ��Ʒ������
+                                                </td>
+                                                <td valign="top" class="txt1">
+                                                  �ҵ�github��ҳ
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--������Ϣ-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
